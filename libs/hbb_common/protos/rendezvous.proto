@@ -21,6 +21,9 @@ message PunchHoleRequest {
   string licence_key = 3;
   ConnType conn_type = 4;
   string token = 5;
+  string version = 6;
+  string source_id = 7;
+
 }
 
 message PunchHole { 
